@@ -1,8 +1,8 @@
 <?php
-  function greet() {
-    echo "<p>Hi, my name is blank and my favourite colour is blank.</p>";
+  function greet($name, $colour) {
+    echo "<p>Hi, my name is $name and my favourite colour is $colour.</p>";
   }
 
-  greet();
-  greet();
+  greet('John', 'blue' );
+  greet('Jane', 'green');
 ?>
