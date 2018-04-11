@@ -5,7 +5,7 @@
   $count = 0;
 
   while() {
-
+    echo "<li></li>";
   }
 
 ?>
