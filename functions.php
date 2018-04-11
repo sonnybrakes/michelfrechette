@@ -1,5 +1,5 @@
 <?php
 
-add_action();
+add_action('wp_enqueue_scripts');
 
 ?>
