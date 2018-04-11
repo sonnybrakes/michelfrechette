@@ -1,3 +1,5 @@
 <?php
- echo 2 + 2;
+ function myFirstFunction() {
+  echo 2 + 2;
+ }
 ?>
