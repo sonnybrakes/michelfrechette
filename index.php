@@ -6,6 +6,7 @@
 
   while($count < 100) {
     echo "<li>$count</li>";
+    $count++;
   }
 
 ?>
