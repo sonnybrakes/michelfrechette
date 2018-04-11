@@ -6,3 +6,5 @@
   greet('John', 'blue' );
   greet('Jane', 'green');
 ?>
+
+<h1><?php bloginfo(); ?></h1>
