@@ -1,6 +1,6 @@
 <?php
 
-  while() {
+  while(have_posts()) {
 
   }
 
