@@ -3,8 +3,8 @@
   $names = array('michel', 'carole', 'pauline', 'julie');
 
   $count = 1;
-  
-  while() {
+
+  while($count < 100) {
 
   }
 
