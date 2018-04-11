@@ -1,8 +1,6 @@
 <?php
- function myFirstFunction() {
-  echo "<p>This is my first function</p>";
- }
 
- myFirstFunction();
- myFirstFunction();
 ?>
+
+<p>Hi, my name is John and my favourite color is blue.</p>
+<p>Hi, my name is Jane and my favourite color is green.</p>
