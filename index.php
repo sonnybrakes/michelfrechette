@@ -1,7 +1,8 @@
 <?php
  function myFirstFunction() {
-  echo 2 + 2;
+  echo "<p>This is my first function</p>";
  }
 
+ myFirstFunction();
  myFirstFunction();
 ?>
