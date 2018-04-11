@@ -7,4 +7,4 @@
   greet('Jane', 'green');
 ?>
 
-<h1><?php bloginfo(); ?></h1>
+<h1><?php bloginfo('name'); ?></h1>
