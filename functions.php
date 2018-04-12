@@ -9,6 +9,8 @@ function university_files() {
 
 add_action('wp_enqueue_scripts', 'university_files');
 
-function university_features();
+function university_features() {
+  add_theme_support();
+}
 
 add_action('after_setup_theme', 'university_features');
