@@ -5,5 +5,3 @@
   </head>
   <body>
     <h1>Sonny Brakes University</h1>
-  </body>
-</html>
