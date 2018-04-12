@@ -1,7 +1,7 @@
 <?php
 
 function university_files() {
-  wp_enqueue_style();
+  wp_enqueue_style('font-awesome');
   wp_enqueue_style('university_main_styles', get_stylesheet_uri());
 }
 
