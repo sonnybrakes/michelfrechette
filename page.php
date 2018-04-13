@@ -16,8 +16,8 @@
     <div class="container container--narrow page-section">
 
       <?php
-        if () {
-          
+        if (2 + 2 == 4) {
+          echo "the sky is blue";
         }
       ?>
 
