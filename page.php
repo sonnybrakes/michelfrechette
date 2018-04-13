@@ -17,7 +17,7 @@
 
       <?php
         if () {
-          
+          echo "the sky is blue";
         }
       ?>
 
