@@ -16,7 +16,7 @@
     <div class="container container--narrow page-section">
 
       <?php
-        echo wp_get_post_parent_id(get_the_ID());
+
       ?>
 
       <div class="metabox metabox--position-up metabox--with-home-link">
