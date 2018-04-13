@@ -16,9 +16,9 @@
     <div class="container container--narrow page-section">
 
       <?php
-        if (2 + 2 == 4) {
-          echo "the sky is blue";
-        }
+
+
+
       ?>
 
       <div class="metabox metabox--position-up metabox--with-home-link">
