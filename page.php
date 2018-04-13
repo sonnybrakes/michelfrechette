@@ -16,8 +16,8 @@
     <div class="container container--narrow page-section">
 
       <?php
-        if (2 + 2 == 4) {
-          echo "the sky is blue";
+        if (wp_get_post_parent_id(get_the_ID())) {
+          echo "I am a child page";
         }
       ?>
 
