@@ -16,9 +16,9 @@
     <div class="container container--narrow page-section">
 
       <?php
-        if (wp_get_post_parent_id(get_the_ID())) {
-          echo "I am a child page";
-        }
+        if (wp_get_post_parent_id(get_the_ID())) { ?>
+          "WE WILL DROP IN AND OUT OF PHP AND HTML INSIDE THIS IF STATEMENT"
+      <?php }
       ?>
 
       <div class="metabox metabox--position-up metabox--with-home-link">
