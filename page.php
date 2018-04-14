@@ -31,7 +31,7 @@
         <ul class="min-list">
           <?php
             wp_list_pages(array(
-              
+              'title_li' = NULL
             ));
            ?>
         </ul>
