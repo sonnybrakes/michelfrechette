@@ -33,10 +33,13 @@
             if () {
 
             }
+            
             wp_list_pages(array(
               'title_li' => NULL,
+              'child_of' =>
             ));
-           ?>
+
+          ?>
         </ul>
       </div>
 
