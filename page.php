@@ -30,8 +30,11 @@
         <h2 class="page-links__title"><a href="#">About Us</a></h2>
         <ul class="min-list">
           <?php
+            if () {
+
+            }
             wp_list_pages(array(
-              'title_li' => NULL
+              'title_li' => NULL,
             ));
            ?>
         </ul>
