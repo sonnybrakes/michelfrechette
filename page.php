@@ -25,7 +25,7 @@
 
     <?php }
     ?>
-      <!--
+
       <div class="page-links">
         <h2 class="page-links__title"><a href="#">About Us</a></h2>
         <ul class="min-list">
@@ -33,7 +33,7 @@
           <li><a href="#">Our Goals</a></li>
         </ul>
       </div>
-      -->
+      
 
       <div class="generic-content">
         <?php the_content(); ?>
