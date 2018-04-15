@@ -30,13 +30,16 @@
         <h2 class="page-links__title"><a href="#">About Us</a></h2>
         <ul class="min-list">
           <?php
-            if ($theParent) {
 
+            if ($theParent) {
+              $findChildrenOf = $theParent;
+            } else {
+              $findChildrenOf = get_the_ID();
             }
 
             wp_list_pages(array(
               'title_li' => NULL,
-              'child_of' => 14
+              'child_of' => $findChildrenOf
             ));
 
           ?>
