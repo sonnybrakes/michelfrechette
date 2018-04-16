@@ -10,6 +10,7 @@ function university_files() {
 add_action('wp_enqueue_scripts', 'university_files');
 
 function university_features() {
+  // navigations menus 5-18
   add_theme_support('title-tag');
 }
 
