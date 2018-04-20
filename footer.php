@@ -14,7 +14,9 @@
           <h3 class="headline headline--small">Explore</h3>
           <nav class="nav-list">
             <?php
-              wp_nav_menu();
+              wp_nav_menu(array(
+                
+              ));
              ?>
             <!-- <ul>
               <li><a href="<?php echo site_url('/about-us'); ?>">About Us</a></li>
