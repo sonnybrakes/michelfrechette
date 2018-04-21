@@ -19,7 +19,7 @@
               ));
             ?> -->
             <ul>
-              <li><a href="<?php echo site_url('/about-us'); ?>">About Us</a></li>
+              <li <?php if () {} ?>><a href="<?php echo site_url('/about-us'); ?>">About Us</a></li>
               <li><a href="#">Programs</a></li>
               <li><a href="#">Events</a></li>
               <li><a href="#">Campuses</a></li>
