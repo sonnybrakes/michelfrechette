@@ -8,7 +8,7 @@ get_header(); ?>
   </div>
 
     <div class="page-banner__content container container--narrow">
-      <h1 class="page-banner__title"><?php the_title(); ?></h1>
+      <h1 class="page-banner__title">Welcome to our Blog</h1>
         <div class="page-banner__intro">
           <p>DON'T FORGET TO REPLACE ME LATER</p>
         </div>
