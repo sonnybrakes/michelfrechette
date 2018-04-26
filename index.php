@@ -23,7 +23,7 @@ get_header(); ?>
             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
           </div>
           <div class="metabox">
-            <p></p>
+            <p>Posted by Michel</p>
           </div>
       <?php  }
        ?>
