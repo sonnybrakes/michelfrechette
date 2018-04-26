@@ -20,7 +20,7 @@ get_header(); ?>
         while(have_posts()) {
           the_post(); ?>
           <div class="post-item">
-            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <h2 class="headline headline--medium headline--post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
           </div>
           <div class="metabox">
             <p>Posted by Michel on April 26, 2018 in News </p>
