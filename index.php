@@ -19,7 +19,9 @@ get_header(); ?>
       <?php
         while(have_posts()) {
           the_post(); ?>
-          
+          <div class="post-item">
+            <h2><a href="#"></a></h2>
+          </div>
       <?php  }
        ?>
     </div>
