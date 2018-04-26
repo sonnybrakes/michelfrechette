@@ -27,6 +27,7 @@ get_header(); ?>
           </div>
           <div class="generic-content">
             <?php  the_excerpt(); ?>
+            <p><a href="#">Continue Reading</a></p>
           </div>
       <?php  }
        ?>
