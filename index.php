@@ -17,9 +17,10 @@ get_header(); ?>
 
     <div class="container container--narrow page-section">
       <?php
-        while() {
-
-        }
+        while(have_posts()) {
+          the_post(); ?>
+          
+      <?php  }
        ?>
     </div>
 
