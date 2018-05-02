@@ -14,6 +14,11 @@
 
     <div class="container container--narrow page-section">
       metabox will go here
+
+      <div class="generic-content">
+
+      </div>
+      
     </div>
   <?php }
 
