@@ -11,8 +11,8 @@ get_header(); ?>
       <h1 class="page-banner__title"><?php if (is_category()) {
         echo "placeholder here";
       }
-      if () {
-        
+      if (is_author()) {
+        echo "thingy goes here";
       }?></h1>
         <div class="page-banner__intro">
           <p>Keep up with our latest news.</p>
