@@ -15,11 +15,8 @@
     <div class="container container--narrow page-section">
       metabox will go here
 
-      <div class="generic-content">
+      <div class="generic-content"><?php the_content(); ?></div>
 
-      </div>
-      
-    </div>
   <?php }
 
   get_footer();
