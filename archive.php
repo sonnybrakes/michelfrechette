@@ -9,10 +9,10 @@ get_header(); ?>
 
     <div class="page-banner__content container container--narrow">
       <h1 class="page-banner__title"><?php if (is_category()) {
-        echo "placeholder here";
+        single_cat_title();
       }
       if (is_author()) {
-        echo "thingy goes here";
+        the_author();
       }?></h1>
         <div class="page-banner__intro">
           <p>Keep up with our latest news.</p>
