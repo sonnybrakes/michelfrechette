@@ -8,7 +8,7 @@ get_header(); ?>
   </div>
 
     <div class="page-banner__content container container--narrow">
-      <h1 class="page-banner__title"><?php if () {
+      <h1 class="page-banner__title"><?php if (is_category()) {
 
       } ?></h1>
         <div class="page-banner__intro">
