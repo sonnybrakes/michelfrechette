@@ -58,7 +58,7 @@
               <span class="event-summary__day"><?php the_time('d'); ?></span>
             </a>
             <div class="event-summary__content">
-              <h5 class="event-summary__title headline headline--tiny"><a href="#">We Were Voted Best School</a></h5>
+              <h5 class="event-summary__title headline headline--tiny"><a href="#"><?php the_title(); ?></a></h5>
               <p>For the 100th year in a row we are voted #1. <a href="#" class="nu gray">Read more</a></p>
             </div>
           </div>
