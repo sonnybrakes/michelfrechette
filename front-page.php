@@ -54,7 +54,7 @@
 
           <div class="event-summary">
             <a class="event-summary__date event-summary__date--beige t-center" href="#">
-              <span class="event-summary__month">Jan</span>
+              <span class="event-summary__month"><?php the_time('M'); ?></span>
               <span class="event-summary__day">20</span>
             </a>
             <div class="event-summary__content">
