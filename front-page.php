@@ -51,7 +51,7 @@
 
         while ($homepagePosts->have_posts()) {
           $homepagePosts->the_post(); ?>
-            <li><?php the_title(); ?></li>
+            
           <?php
         } ?>
 
