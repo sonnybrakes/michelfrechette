@@ -47,7 +47,7 @@
       <?php
         while (have_post()) {
           the_post(); ?>
-
+            <li><?php the_title(); ?></li>
           <?php
         } ?>
 
