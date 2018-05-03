@@ -51,20 +51,21 @@
 
         while ($homepagePosts->have_posts()) {
           $homepagePosts->the_post(); ?>
-            
+
+          <div class="event-summary">
+            <a class="event-summary__date event-summary__date--beige t-center" href="#">
+              <span class="event-summary__month">Jan</span>
+              <span class="event-summary__day">20</span>
+            </a>
+            <div class="event-summary__content">
+              <h5 class="event-summary__title headline headline--tiny"><a href="#">We Were Voted Best School</a></h5>
+              <p>For the 100th year in a row we are voted #1. <a href="#" class="nu gray">Read more</a></p>
+            </div>
+          </div>
+
           <?php
         } ?>
 
-      <div class="event-summary">
-        <a class="event-summary__date event-summary__date--beige t-center" href="#">
-          <span class="event-summary__month">Jan</span>
-          <span class="event-summary__day">20</span>
-        </a>
-        <div class="event-summary__content">
-          <h5 class="event-summary__title headline headline--tiny"><a href="#">We Were Voted Best School</a></h5>
-          <p>For the 100th year in a row we are voted #1. <a href="#" class="nu gray">Read more</a></p>
-        </div>
-      </div>
       <div class="event-summary">
         <a class="event-summary__date event-summary__date--beige t-center" href="#">
           <span class="event-summary__month">Feb</span>
