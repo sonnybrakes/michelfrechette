@@ -46,7 +46,7 @@
 
       <?php
         while (have_post()) {
-
+          the_post();
         } ?>
 
       <div class="event-summary">
