@@ -45,7 +45,7 @@
       <h2 class="headline headline--small-plus t-center">From Our Blogs</h2>
 
       <?php
-        while (have_post()) {
+        while (have_posts()) {
           the_post(); ?>
             <li><?php the_title(); ?></li>
           <?php
